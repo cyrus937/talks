@@ -99,7 +99,9 @@ class _AccueilPageState extends State<AccueilPage> {
                       borderRadius: BorderRadius.circular(5)),
                   child: Text("ACCEPTER ET CONTINUER"),
                 ),
-                onTap: null,
+                onTap: () {
+                  Navigator.pushNamed(context, '/home');
+                },
               )
             ],
           ),

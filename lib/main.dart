@@ -21,8 +21,13 @@ class MyApp extends StatelessWidget {
             theme: Mythemes.lightTheme,
             themeMode: themeProvider.themeMode,
             darkTheme: Mythemes.darkTheme,
+            initialRoute: '/',
+            routes: {
+              '/': (context) => AccueilPage(),
+              '/home': (context) => MyHomePage(title: "title")
+            },
             //home: MyHomePage(title: 'Flutter Demo Home Page'),
-            home: AccueilPage(),
+            //home: AccueilPage(),
           );
         },
       );
