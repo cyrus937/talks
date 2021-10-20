@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:talks/view/pages/accueil_page.dart';
 import 'package:talks/view/state_management/theme_provider.dart';
 import 'package:talks/view/widgets/change_theme_button_widget.dart';
 
@@ -20,7 +21,8 @@ class MyApp extends StatelessWidget {
             theme: Mythemes.lightTheme,
             themeMode: themeProvider.themeMode,
             darkTheme: Mythemes.darkTheme,
-            home: MyHomePage(title: 'Flutter Demo Home Page'),
+            //home: MyHomePage(title: 'Flutter Demo Home Page'),
+            home: AccueilPage(),
           );
         },
       );

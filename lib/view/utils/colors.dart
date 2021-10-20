@@ -1,15 +1,16 @@
 import 'package:flutter/material.dart';
 
-const PrimaryColor = const Color(0xFF008080);
-const PrimaryColorLight = const Color(0xFF4cb0af);
-const PrimaryColorDark = const Color(0xFF005354);
+const PrimaryColor = const Color(0xFF075E54);
+const PrimaryColorLight = const Color(0xFF128C7E);
+const PrimaryColorDark = const Color(0xFF25D366);
 
-const SecondaryColor = const Color(0xFFb2dfdb);
-const SecondaryColorLight = const Color(0xFFe5ffff);
-const SecondaryColorDark = const Color(0xFF82ada9);
+const SecondaryColor = const Color(0xFFDCF8C6);
+const LinkColor = const Color(0xFF34B7F1);
+const ChatBackgroundColorLight = const Color(0xFFECE5DD);
 
 const Background = const Color(0xFFfffdf7);
-const TextColor = const Color(0xFF004d40);
+const TextTitleColor = const Color(0xFF128C7E);
+const TextColor = const Color(0xFFffffff);
 
 const DarkBackground = const Color(0xFF222727);
 
@@ -35,7 +36,7 @@ class MyTheme {
       textSelectionColor: PrimaryColorLight,
       backgroundColor: Background,
       textTheme: base.textTheme.copyWith(
-          subtitle1: base.textTheme.subtitle1!.copyWith(color: TextColor),
+          subtitle1: base.textTheme.subtitle1!.copyWith(color: TextTitleColor),
           bodyText1: base.textTheme.bodyText1!.copyWith(color: TextColor),
           bodyText2: base.textTheme.bodyText2!.copyWith(color: TextColor)),
     );
