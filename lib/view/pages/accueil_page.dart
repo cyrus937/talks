@@ -97,10 +97,14 @@ class _AccueilPageState extends State<AccueilPage> {
                   decoration: BoxDecoration(
                       color: PrimaryTextColor,
                       borderRadius: BorderRadius.circular(5)),
-                  child: Text("ACCEPTER ET CONTINUER"),
+                  child: Text(
+                    "ACCEPTER ET CONTINUER",
+                    style: TextStyle(
+                        fontSize: MediaQuery.of(context).size.width * 0.04),
+                  ),
                 ),
                 onTap: () {
-                  Navigator.pushNamed(context, '/home');
+                  Navigator.pushNamed(context, '/verify_number');
                 },
               )
             ],

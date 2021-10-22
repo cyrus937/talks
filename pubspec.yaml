@@ -31,6 +31,7 @@ dependencies:
   dynamic_themes: ^1.1.0
   provider: ^6.0.1
   url_launcher: ^6.0.12
+  pin_entry_text_field: ^0.1.4
 
 dev_dependencies:
   flutter_test:

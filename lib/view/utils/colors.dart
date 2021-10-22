@@ -6,7 +6,7 @@ const PrimaryTextColor = const Color(0xFF25D366);
 
 const SecondaryColor = const Color(0xFFDCF8C6);
 const LinkColor = const Color(0xFF34B7F1);
-const ChatBackgroundColorLight = const Color(0xFFECE5DD);
+const ChatBackgroundColorLight = const Color(0xFFa39a90);
 
 const Background = const Color(0xFFfffdf7);
 const TextTitleColor = const Color(0xFF128C7E);
