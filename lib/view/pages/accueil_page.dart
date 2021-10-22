@@ -24,7 +24,7 @@ class _AccueilPageState extends State<AccueilPage> {
               Text(
                 "Bienvenue sur Talks",
                 style: TextStyle(
-                  color: PrimaryTextColor,
+                  color: PrimaryColorLight,
                   fontSize: MediaQuery.of(context).size.height * 0.044,
                   fontWeight: FontWeight.w400,
                 ),
