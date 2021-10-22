@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const PrimaryColor = const Color(0xFF075E54);
 const PrimaryColorLight = const Color(0xFF128C7E);
-const PrimaryColorDark = const Color(0xFF25D366);
+const PrimaryTextColor = const Color(0xFF25D366);
 
 const SecondaryColor = const Color(0xFFDCF8C6);
 const LinkColor = const Color(0xFF34B7F1);
@@ -24,7 +24,7 @@ class MyTheme {
       accentColor: SecondaryColor,
       accentColorBrightness: Brightness.dark,
       primaryColor: PrimaryColor,
-      primaryColorDark: PrimaryColorDark,
+      //primaryColorDark: PrimaryColorDark,
       primaryColorLight: PrimaryColorLight,
       primaryColorBrightness: Brightness.dark,
       buttonTheme: base.buttonTheme.copyWith(

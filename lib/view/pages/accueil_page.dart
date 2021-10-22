@@ -24,9 +24,9 @@ class _AccueilPageState extends State<AccueilPage> {
               Text(
                 "Bienvenue sur Talks",
                 style: TextStyle(
-                  color: TextTitleColor,
+                  color: PrimaryTextColor,
                   fontSize: MediaQuery.of(context).size.height * 0.044,
-                  fontWeight: FontWeight.w700,
+                  fontWeight: FontWeight.w400,
                 ),
               ),
               SizedBox(
@@ -95,7 +95,7 @@ class _AccueilPageState extends State<AccueilPage> {
                   width: MediaQuery.of(context).size.width * 0.77,
                   alignment: Alignment.center,
                   decoration: BoxDecoration(
-                      color: PrimaryColorLight,
+                      color: PrimaryTextColor,
                       borderRadius: BorderRadius.circular(5)),
                   child: Text("ACCEPTER ET CONTINUER"),
                 ),
