@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:pin_entry_text_field/pin_entry_text_field.dart';
+//import 'package:pin_entry_text_field/pin_entry_text_field.dart';
 import 'package:talks/view/utils/colors.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -114,15 +114,16 @@ class _VerifyNumberPageState extends State<VerifyNumberPage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                    margin: EdgeInsets.only(
-                        left: MediaQuery.of(context).size.width * 0.025),
-                    child: PinEntryTextField(
+                  margin: EdgeInsets.only(
+                      left: MediaQuery.of(context).size.width * 0.025),
+                  /*child: PinEntryTextField(
                       fields: 6,
                       onSubmit: (text) {
                         smsOTP = text as String;
                         Colors.white;
                       },
-                    )),
+                    )*/
+                ),
               ],
             ),
           ),
