@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "501445359896",
+    "project_id": "talks-683e5",
+    "storage_bucket": "talks-683e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501445359896:android:5cb893cae7ba7c1484466d",
+        "android_client_info": {
+          "package_name": "com.gitech.talks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501445359896-4ma7jo52qnkcirf2n2u757ago25vd0u7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8IxXBaDRIUNHnaJTBvajQ9LECGCWLk7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501445359896-4ma7jo52qnkcirf2n2u757ago25vd0u7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

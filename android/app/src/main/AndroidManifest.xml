@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.talks">
+    package="com.gitech.talks">
    <application
         android:label="talks"
         android:icon="@mipmap/ic_launcher">

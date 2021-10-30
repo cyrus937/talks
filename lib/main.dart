@@ -4,8 +4,11 @@ import 'package:talks/view/pages/accueil_page.dart';
 import 'package:talks/view/pages/verify_numbre_page.dart';
 import 'package:talks/view/state_management/theme_provider.dart';
 import 'package:talks/view/widgets/change_theme_button_widget.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
